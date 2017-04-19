@@ -1,5 +1,9 @@
 AC_INIT([irstlm], [5.80.06])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+
+CC=${CC-/usr/bin/gcc-5}
+CXX=${CXX-/usr/bin/g++-5}
+
 AC_PROG_CC
 AC_PROG_CXX
 AC_PROG_LIBTOOL
